@@ -30,7 +30,7 @@ jobs:
       - run: rm config.bak.yml
       - run: rm -R scripts themes public
       - run: git add .
-      - run: git config user.name "LoeiFy"
-      - run: git config user.email "LoeiFy@gmail.com"
+      - run: git config user.name "chougit"
+      - run: git config user.email "553636989@qq.com"
       - run: git commit -m "Updated by circleci - `date`"
-      - run: git push -q https://${gh_token}@github.com/LoeiFy/Recordum.git gh-pages:gh-pages
+      - run: git push -q https://${gh_token}@github.com/chougit/Recordum.git gh-pages:gh-pages
